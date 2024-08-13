@@ -5,11 +5,90 @@
     font-optical-sizing: auto;
     font-weight: <400>;
     font-style: normal;
+    
   }
   
-.work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.text-primary{
+    color: #ffffff;
+}
+
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+
+/* dark03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: #111111;
+}
+
+.btn-primary{
+    background-color: #E6533C;
+    color: white;
+    padding: 4px 15px;
+    font-size: .8rem;
+    font-weight: 300;
+    border-radius: 35px;
+    border: none;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* header styles */
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+ 
+
+
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #E6533C;
+    font-style: italic;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    font color: #white;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+
+    
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    color: white;
 }
