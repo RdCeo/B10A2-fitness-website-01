@@ -7,21 +7,31 @@
     font-style: normal;
     
   }
-  
+
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
 
 
 /* shared styles */
 .display-flex{
     display: flex;
 }
-
+.display-flex2{
+    display: flex;
+}
 .text-primary{
     color: #ffffff;
 }
 
 /* dark 02 */
-.text-gray{
-    color: #424242;
+.text-italic{
+    color: #ffffff;
+}
+#quick-list{
+    font-weight: 200;
 }
 
 /* dark03 */
@@ -42,6 +52,25 @@
     border-radius: 35px;
     border: none;
 }
+.btn-secondary{
+    background-color: #111111;
+    color: white;
+    padding: 4px 15px;
+    font-size: .8rem;
+    font-weight: 300;
+    border-radius: 35px;
+        
+}
+.btn-tri{
+    background-color: #303030;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 15px;
+    text-align: left;
+        
+}
 
 main{
     max-width: 1440px;
@@ -53,8 +82,8 @@ main > section{
 }
 
 .section-title{
-    font-size: 2.8rem;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: 1000;
 }
 
 /* header styles */
@@ -91,4 +120,45 @@ main > section{
     max-width: 1440px;
     margin: 0 auto;
     color: white;
+}
+
+/* Get Body related styles */
+.get-body{
+    align-items: center;
+}
+
+/* features section related styles */
+
+.features{
+    gap: 140px;
+}
+
+.our-features{
+    margin-left: 10px;
+    max-width: 650px;
+}
+
+#quick-list{
+    font-weight: 900;
+}
+
+/* #no-of-video{
+    padding: 50px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 5px;
+} */
+
+.place-holder{
+    background-position: top;
+}
+
+#video-tutorial{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.featured-architect img{
+    width: 100%;
 }
