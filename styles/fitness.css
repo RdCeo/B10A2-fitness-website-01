@@ -296,3 +296,82 @@ main > section{
     width: 500px;
     border-radius: 18px;
 }
+
+/* /meet our team css! */
+.run2{
+
+    /* border: 1px solid #FF900E; */
+    background-color: #303030;
+    width: 1240px;
+    height: 520px;
+    border-radius: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px 40px 40px;
+    
+}
+
+.run2 img{
+    width: 400px;
+    height: 250px;
+    border-radius: 18px;
+}
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 50px;
+    height: 50px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-wrap: nowrap;
+    
+  }
+.bottom-left {
+    position: absolute;
+    bottom: -160px;
+    left: 20px;
+
+  }
+  /* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: -160px;
+    right: -580px;
+  }
+  .bottom-last {
+    position: absolute;
+    bottom: -160px;
+    right: -950px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.fact-number2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+
+}
+.fact-number3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+
+}
