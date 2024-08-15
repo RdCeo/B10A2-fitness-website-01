@@ -313,6 +313,8 @@ main > section{
 }
 
 .run2 img{
+    display: inline;
+    justify-content: space-evenly;
     width: 400px;
     height: 250px;
     border-radius: 18px;
@@ -322,7 +324,7 @@ main > section{
 }
 .team-img-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 6fr);
     gap: 24px;
     width: 50px;
     height: 50px;
@@ -351,6 +353,23 @@ main > section{
     bottom: -160px;
     right: -950px;
   }
+  .bottom-left2 {
+    position: absolute;
+    bottom: -690px;
+    left: -120px;
+
+  }
+  /* Bottom right text */
+.bottom-right2 {
+    position: absolute;
+    bottom: 160px;
+    right: -80px;
+  }
+  .bottom-last2 {
+    position: absolute;
+    bottom: 300px;
+    right: -140px;
+  }
   
   /* Centered text */
   .centered {
@@ -368,6 +387,14 @@ main > section{
 
 }
 .fact-number3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+
+}
+.fact-number4{
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 5px;
