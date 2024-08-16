@@ -10,9 +10,10 @@
 
   .dancing-script-italic {
     font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    font-optical-sizing: 30px;
+    font-weight: -lighter;
+    font-style: italic;
+    
   }
 
 
@@ -48,7 +49,9 @@
 
 /* dark 02 */
 .text-italic{
-    color: #ffffff;
+    color: #E6533C;
+
+
     
 }
 #quick-list{
@@ -263,6 +266,7 @@ main > section{
 .habit-info{
     max-width: 540px;
     margin: 50px auto;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -272,6 +276,12 @@ main > section{
     text-align: left;
 }
 
+.habit-info3{
+    max-width: 880px;
+    margin: 20px auto;
+    text-align: left;
+    margin-left: 0px;
+}
 
 
 .changing-habit-facts{
@@ -419,6 +429,30 @@ border-radius: 18px;
     left: -120px;
 
   }
+
+  .bottom-left3 {
+    position: absolute;
+    bottom: -1590px;
+    left: 400px;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .push-up1{
+    position: absolute;
+    bottom: -1690px;
+    left: 1000px;
+    font-size: xx-large;
+    font-weight: 900;
+  }
+
+  .jumping-1{
+    position: absolute;
+    bottom: -10px;
+    left: 100px;
+    font-size: xx-large;
+    font-weight: 900;
+  }
   /* Bottom right text */
 .bottom-right2 {
     position: absolute;
@@ -555,6 +589,9 @@ th{
 
 
    /* BMI Calculator CSS */
+  .bmi-margin-top{
+    margin-top: 60px;
+  }
    .bmi{
 
     /* border: 1px solid #FF900E; */
@@ -566,6 +603,7 @@ th{
     align-items: center;
     justify-content: center;
     padding: 20px 40px 20px 20px;
+
     
 }
 
@@ -600,3 +638,85 @@ th{
     margin-bottom: 10px;
     padding: 20px 295px 20px 20px;
    }
+
+ .bmi-company{
+    
+}
+.bmi-border{
+border: 1px solid rgb(143, 136, 136);
+padding: 20px 20px 20px 20px;
+
+
+
+        }
+.bmi-border-title{
+font-size: 3rem;
+font-weight: 900;
+                    }
+.bmi-border-top {
+    position: relative;
+top: -70px;
+border-top: -70px;
+border-right: 10px;
+}
+
+.section-title-calculator-bmi{
+            font-size: 2rem;
+            font-weight: 1000;
+            text-align: left;
+            position: relative;
+            top: -60px;
+            
+        }
+
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .row{
+            height: 300px;
+            width: 800px;
+          
+            display: flex;
+            gap: none;
+            /* margin-bottom: 5px; */
+        }
+        .row > div{
+            flex: 1;
+        }
+        .vertical-collage img{
+            width: calc( (100%)*2.9 );
+        }
+        .vertical-collage2 img{
+            width: calc( (100%)*2 );
+        }
+        .vertical-collage3 img{
+            width: calc( (100%)*1.5 );
+            position: relative;
+            right: -265px;
+
+
+        }
+        .vertical-collage4 img{
+            width: calc( (100%)*1.4 );
+        }
+        /* .square-collage{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+        } */
+        .vertical-right{
+            display: grid;
+            grid-template-columns: repeat(1, 3fr);
+            position: relative;
+            right: -500px;
+            height: 300px;
+            width: 800px;
+        }
+        .vertical-right2{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            position: relative;
+            right: -395px;
+        }
